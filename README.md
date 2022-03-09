@@ -1,332 +1,253 @@
-<!DOCTYPE html>
-<html lang="en">
+doctype html
+html(lang='en')
 
-<head>
+    head
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
 
-  <title>Hola!</title>
+        title Threat Intel
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.4/js/all.js', crossorigin='anonymous')
 
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
 
-</head>
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
 
-<body id="page-top">
+    body#page-top
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Abhishek J M</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/img.jpeg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#social-outreach">Social Outreach</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#updates">Updates</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="https://www.hawkspawn.com/blog">Blog</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Clarence Taylor
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#awards') Awards
 
-  <div class="container-fluid p-0">
+        // Page Content
+        .container-fluid.p-0
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Abhishek 
-          <span class="text-primary">J M</span>
-        </h1>
-        <div class="subheading mb-5">@HawkSpawn
-          <a href="mailto:jmabhishek4@gmail.com">jmabhishek4@gmail.com</a>
-        </div>
-        <p class="lead mb-5">Mobile Security Enthusiast from India | Alumnus from <a href="https://www.amrita.edu/campus/amritapuri" target="_blank">Amrita Vishwa Vidyapeetham</a> |  Open Source Evangelist  |  Hip Hop & Poetry <a href="https://www.instagram.com/revokensoul/" target="_blank">@revokensoul</a>  |  Avid admirer of Science Fiction, Cosmology and Time Travel | Loves everything on Wheels | Best friends with Python and Java |  Professional Tea and Coffee Drinker  |   Project Lead @ <a href="https://github.com/abhi-r3v0/Adhrit" target="_blank">ADHRIT</a> & <a href="https://github.com/abhi-r3v0/EVABS" target="_blank">EVABS</a> |  CTF @ <a href="https://bi0s.in/" target="_blank">Team bi0s</a></p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/hawkspawn/" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/abhi-r3v0" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://twitter.com/HawkSpawn" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://www.instagram.com/thehawkspawn/" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </div>
-      </div>
-    </section>
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Clarence 
+                        span.text-primary Taylor
+                    .subheading.mb-5
+                        | 3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 · 
+                        a(href='mailto:name@email.com') name@email.com
+                    p.lead.mb-5
+                        | I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                    .social-icons
+                        a.social-icon(href='#!')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='#!')
+                            i.fab.fa-github
+                        a.social-icon(href='#!')
+                            i.fab.fa-twitter
+                        a.social-icon(href='#!')
+                            i.fab.fa-facebook-f
 
-    <hr class="m-0">
+            hr.m-0
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Events</h2>
-        
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Presented ADHRIT at BlackHat</h3>
-            <div class="subheading mb-3">BlackHat Asia 2020</div>
-            <p>Presented my open source Android application security suite <a href="https://github.com/abhi-r3v0/Adhrit" target="_blank">ADHRIT</a> at <a href="https://www.blackhat.com/asia-20/arsenal/schedule/#adhrit-android-security-suite-18907" target="_blank">BlackHat Asia 2020</a></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Oct 2020</span>
-          </div>
-        </div>
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Application Security</h3>
-            <div class="subheading mb-3">CRED</div>
-            <p>Application security review and automation at <a href="https://www.cred.club/" target="_blank">CRED</a>, one of the India's prominent startups. CRED is the most rewarding, members-only credit card payment app offering unmatching rewards from exclusive brands for paying credit card bills</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Sept 2019 - Present</span>
-          </div>
-        </div>
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Senior Web Developer
+                            .subheading.mb-3 Intelitec Solutions
+                            p
+                                | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                        .flex-shrink-0
+                            span.text-primary March 2013 - Present
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Trainer at 7ASecurity</h3>
-            <div class="subheading mb-3">c0c0n - Hacking & Cyber Security Briefing, 2019</div>
-            <p>Conducted a 2-day, extensively hands-on training in Android and iOS application security at <a href="https://www.c0c0n.org/ws_3" target="_blank">c0c0n 2019 International Conference</a>, as a part of <a href="https://7asecurity.com/" target="_blank">7ASecurity</a></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2019</span>
-          </div>
-        </div>
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Web Developer
+                            .subheading.mb-3 Intelitec Solutions
+                            p
+                                | Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                        .flex-shrink-0
+                            span.text-primary December 2011 - March 2013
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Mobile Security CTF Team Lead</h3>
-            <div class="subheading mb-3">Team bi0s</div>
-            <p>Lead the CTF mobile security team of <a href="https://bi0s.in/" target="_blank">Team bi0s</a> at <a href="https://www.amrita.edu/campus/amritapuri" target="_blank">Amrita Vishwa Vidyapeetham, Amritapuri</a></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2014 - Present</span>
-          </div>
-        </div>
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Junior Web Designer
+                            .subheading.mb-3 Shout! Media Productions
+                            p
+                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+                        .flex-shrink-0
+                            span.text-primary July 2010 - December 2011
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Speaker at OWASP Seasides</h3>
-            <div class="subheading mb-3">OWASP Seasides 2019</div>
-            <p>Presented my open source Android reversing and analysis suite <a href="https://github.com/abhi-r3v0/Adhrit" target="_blank">ADHRIT</a> at <a href="https://www.owaspseasides.com/v/2019/tools-showcase/day-2-28-feb-2019" target="_blank">OWASP Seasides</a> (Open Web Application Security Project) International Conference, 2019 held at Goa, India</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">March 2019</span>
-          </div>
-        </div>
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Web Design Intern
+                            .subheading.mb-3 Shout! Media Productions
+                            p
+                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+                        .flex-shrink-0
+                            span.text-primary September 2008 - June 2010
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">University Gold Medalist</h3>
-            <div class="subheading mb-3">Amrita Vishwa Vidyapeetham</div>
-            <p>Secured #1 position in bachelors in computer applications degree across 3 campuses of <a href="https://www.amrita.edu/" target="_blank">Amrita Vishwa Vidyapeetham </a>(9.85 GPA)</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2017</span>
-          </div>
-        </div>
+            hr.m-0
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Trainer at ISSISP</h3>
-            <div class="subheading mb-3">ISSISP 2016</div>
-            <p>Teaching assistance for Android security workshop at <a href="https://www.amrita.edu/site/ISSISP2016/" target="_blank">ISSISP</a> (International Summer School for Information Security and Protection) 2016</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2016</span>
-          </div>
-        </div>
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Nationally #1 - Google CTF</h3>
-            <div class="subheading mb-3">Google CTF 2016</div>
-            <p>Secured #1 position nationally in Google CTF 2016</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2016</span>
-          </div>
-        </div>
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 University of Colorado Boulder
+                            .subheading.mb-3 Bachelor of Science
+                            div Computer Science - Web Development Track
+                            p GPA: 3.23
+                        .flex-shrink-0
+                            span.text-primary August 2006 - May 2010
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">CVE 2015-5612</h3>
-            <div class="subheading mb-3">October CMS</div>
-            <p> <a href="https://www.openwall.com/lists/oss-security/2015/07/21/5" target="_blank">CVE 2015-5612</a> assigned for reporting Stored XSS vulnerability in October CMS</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2015</span>
-          </div>
-        </div>
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 James Buchanan High School
+                            .subheading.mb-3 Technology Magnet Program
+                            p GPA: 3.56
+                        .flex-shrink-0
+                            span.text-primary August 2002 - May 2006
 
+            hr.m-0
 
-      </div>
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            i.fab.fa-angular
+                        li.list-inline-item
+                            i.fab.fa-react
+                        li.list-inline-item
+                            i.fab.fa-node-js
+                        li.list-inline-item
+                            i.fab.fa-sass
+                        li.list-inline-item
+                            i.fab.fa-less
+                        li.list-inline-item
+                            i.fab.fa-wordpress
+                        li.list-inline-item
+                            i.fab.fa-gulp
+                        li.list-inline-item
+                            i.fab.fa-grunt
+                        li.list-inline-item
+                            i.fab.fa-npm
+                    .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Mobile-First, Responsive Design
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Cross Browser Testing & Debugging
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Cross Functional Teams
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Agile Development & Scrum
 
-    </section>
+            hr.m-0
 
-    <hr class="m-0">
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+                    p.mb-0
+                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
-      <div class="w-100">
-        <h2 class="mb-5">Projects</h2>
+            hr.m-0
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0"><a href="https://github.com/abhi-r3v0/Adhrit" target="_blank">ADHRIT</a></h3>
-            <div class="subheading mb-3">Android Application Security Suite</div>
-            <div>Open source Android application security tool emphasizing compactness and flexibility along with speed and ease of setup. Adhrit offers features like source code extraction, manifest analysis, URL extraction and automated ADB payload generation. The tool is an effort to cut down on the amount of time spent on reversing and basic reconnaissance of Android applications. It is widely accepted in the community and presented at conferences like OWASP Seasides, Threatcon and Cysinfo</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">April 2016 - Ongoing</span>
-          </div>
-        </div>
+            // Awards
+            section#awards.resume-section
+                .resume-section-content
+                    h2.mb-5 Awards & Certifications
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Google Analytics Certified Developer
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Mobile Web Specialist - Google Certification
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 1
+                            sup st 
+                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 1
+                            sup st 
+                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 2
+                            sup nd 
+                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 1
+                            sup st 
+                            | Place - James Buchanan High School - Hackathon 2006
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 3
+                            sup rd 
+                            | Place - James Buchanan High School - Hackathon 2005
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0"><a href="https://github.com/abhi-r3v0/EVABS" target="_blank">EVABS</a></h3>
-            <div class="subheading mb-3">Extremely Vulnerable Android Labs</div>
-            <div>An open source Android application that is intentionally vulnerable so as to act as a learning platform for Android application security beginners. The effort is to introduce beginners with very limited or zero knowledge to some of the major and commonly found real-world based Android application vulnerabilities in a story-based, interactive model. EVABS follows a level-wise difficulty approach and in each level, the player learns a new concept. This project is still under progress and aims at incorporating as many levels as possible.</div>
-            
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2017 - Ongoing</span>
-          </div>
-        </div>
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0"><a href="https://github.com/abhi-r3v0/DroXES" target="_blank">DroXES</a></h3>
-            <div class="subheading mb-3">Droid eXploitation Environment Setup</div>
-            <div>A simple script to install the most necessary tools for security testing on your Android device/emulator and also to setup the host Linux system with all the required dependencies.</div>
-            
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2017 - Ongoing</span>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="social-outreach">
-      <div class="w-100">
-        <h2 class="mb-5">Social Outreach</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Cyber Gurukulam</h3>
-            <div class="subheading mb-3">Team bi0s & Amrita Centre for Cybersecurity Systems</div>
-            <p>Conducted a week-long cybersecurity workshop for high school students from all across India. The workshop focused on creating an awareness about cybersecurity amongst the younger school-going students and getting them interested in cybersecurity as a career</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2016</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Cyber Security Workshop for Rural School Students</h3>
-            <div class="subheading mb-3">Team bi0s & Andhra Pradesh Government</div>
-            <p>Conducted a 2 week-long cybersecuity workshop for rural school students of Andhra Pradesh as a part of government initiative</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2016</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">BIKOS Workshop</h3>
-            <div class="subheading mb-3">Team bi0s & BIKOS</div>
-            <p>Conducted a 2 day workshop in collaboration with BIKOS initiative for high school students to create awareness about cyberspace crimes and issues</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2017</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="updates">
-      <div class="w-100">
-        <h2 class="mb-5">Updates</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Adhrit & EVABS listed in the top 14 mobile security projects list by <a href="https://awesomeopensource.com/projects/mobile-security" target="_blank"> awesomeopensource.com</a></li>
-            <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Adhrit presented at <a href="https://cysinfo.com/12th-meetup-analysis-android-apk-using-adhrit/" target="_blank">Cysinfo Cyber Security Community Meetup</a></li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            ADHRIT Installation documented by <a href="https://isec.ne.jp/wp-content/uploads/2018/04/120Adhrit.pdf" target="_blank"> isec</a></li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Adhrit listed as a recommended tool by <a href="https://pentester.land/newsletter/2019/01/01/the-5-hacking-newsletter-34.html" target="_blank"> pentester.land</a></li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            EVABS listed as a recommended Android security lab by <a href="https://pentester.land/newsletter/2019/09/03/the-5-hacking-newsletter-69.html" target="_blank">pentester.land</a></li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            EVABS listed by <a href="https://www.kitploit.com/2019/08/evabs-extremely-vulnerable-android-labs.html" target="_blank">kitploit </a></li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Solving a CTF challenge with <a href="https://www.youtube.com/watch?v=yeEp-opeRjM" target="_blank">Adhrit</a></li>
-        </ul>
-      </div>
-    </section>
-    
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
-</body>
-
-</html>
-
+        // Core theme JS
+        script(src='js/scripts.js')
